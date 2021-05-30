@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Giao Diện Đặt ĐỒ</title>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+        <link rel="stylesheet" type = "text/css" href="./login.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    
+    
+    </head>
+    <body>
+         
+        <div class="container" style="margin-bottom:100px">
+            <div class="row">
+              <div class="col-md-3 col-sm-3 col-xs-3" style="background-color:firebrick">
+                <div class="abc"> 
+                    <img src="./images/logo2.png" style="width: 280px;height: 120px;">
+                  </div>
+                </div>
+              <div class="col-md-5 col-sm-5 col-xs-5" style="background-color:firebrick">
+                <div id ="timkiem">
+                    <ul>
+                            <li><a href="#" title="HOME"><strong>Trang chủ</strong></a></li>
+                            <li><a href="#" title="INTRODUCE"><strong>Đặt món</strong></a></li>
+                            <li><a href="#" title="ABOUT"><strong>Đánh giá</strong></a></li>
+                            <li><a href="#" title="MENU"><strong>Voucher</strong></a></li>
+                            <li><a href="#" title="ENETS"><strong>Đăng kí</strong></a></li>
+                            <li><a href="#" title="ENETS"><strong>Đăng nhập</strong></a></li>
+                            <li><a href="#" title="CONTACTS"><strong>Liên hệ</strong></a></li>
+                            <input type="text" name="text" id="text" value="" />
+                    </ul>
+                    <div class="box">
+                        <input type="text" placeholder="Search here">
+                        <a><i class="fas fa-search-location"></i></a>
+                      </div>
+                </div>
+                </div>
+              <div class="col-md-4 col-sm-4 col-xs-4" style="background-color:firebrick ; color: khaki;">
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                    </ol> 
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <img src="./images/16.jpg" alt="Chania" style="width: 360px;height: 120px;">
+                            <div class="carousel-caption">
+                                <h4>Món Hot</h4>
+                                <p>gà cay sốt thần thánh</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                           <img src="./images/6.jpg" alt="Chania" style="width: 360px;height: 120px;">
+                           <div class="carousel-caption">
+                               <h4>Món mới</h4>
+                               <p>mì trộn hàn quốc</p>
+                           </div>
+                           </div>
+                       <div class="item">
+                           <img src="./images/15.jpg" alt="Chania" style="width: 360px;height: 120px;">
+                           <div class="carousel-caption">
+                               <h4>khuyến mãi đặc biệt</h4>
+                               <p>kim bap chiên trứng</p>
+                           </div>
+                       </div>
+                </div>
+            </div>
+      </div>
+        <div class="container" style="margin-bottom:0px;background-color:lightblue;">
+            <table class="table table-hover table-bordered">
+                <thead style="background-color:lightcoral;">
+                  <tr>
+                  <th>TÊN MÓN</th>
+                  <th >SỐ LƯỢNG</th>
+                  <th >GHI CHÚ</th>
+                  </tr>
+                </thead>
+              
+                <tbody>
+                  <td>
+                  <tr>
+                    <td> <div class="media">
+                        <div class="media-left media-middle">
+                            <img src="./images/14.jpg" class="media-object"
+                            style="width:80px">
+                        </div>
+                        <div class="media-body">
+                            <h4 class="media-heading">tokboki truyền thống</h4>
+                            <h5 class="gia">50.000đ</h5>
+                            <p>bánh gạo,đậu hũ, xúc xích, chả cá, hành tây, sốt cay</p>
+                        </div>
+                    </div></td>
+                    <td>
+                        <div class="buttons_added">
+                            <input aria-label="quantity" class="input-qty" max="10" min="0" name="" type="number" value="0"
+                                style="width:50px;height: 30px;background-color:cornsilk;color: brown; ">
+            
+                          </div></td>
+                    <td><div class="form-group">
+                        <textarea class="form-control" rows="3" id="comment" style="width:250px"></textarea>
+                      </div></td>
+                  </tr>
+                  <tr>
+                      
+                    <td> <div class="media">
+                        <div class="media-left media-middle">
+                            <img src="./images/6.jpg" class="media-object"
+                            style="width:80px">
+                        </div>
+                        <div class="media-body">
+                            <h4 class="media-heading">Mì trộn</h4>
+                            <h5 class="gia">55.000đ</h5>
+                            <p>Mì gạo lứt,trứng , dưa chuột, thịt bò, dưa muối</p>
+                        </div>
+                    </div></td>
+                    <td>
+                        <div class="buttons_added">
+                            <input aria-label="quantity" class="input-qty" max="10" min="0" name="" type="number" value="0"
+                                style="width:50px;height: 30px;background-color:cornsilk;color: brown; ">
+            
+                          </div>
+                    <td> <div class="form-group">
+                        <textarea class="form-control" rows="3" id="comment" style="width:250px"></textarea>
+                      </div></td>
+                  </tr>
+                  <tr>
+                    <td> <div class="media">
+                        <div class="media-left media-middle">
+                            <img src="./images/4.jpg" class="media-object"
+                            style="width:80px">
+                        </div>
+                        <div class="media-body">
+                            <h4 class="media-heading">tokboki trứng cay</h4>
+                            <h5 class="gia">60.000đ</h5>
+                            <p>bánh gạo, trứng, xúc xích, chả cá, hành tây, sốt cay</p>
+                        </div>
+                    </div></td>
+                    <td>
+                        <div class="buttons_added">
+                            <input aria-label="quantity" class="input-qty" max="10" min="0" name="" type="number" value="0"
+                                style="width:50px;height: 30px;background-color:cornsilk;color: brown; ">
+            
+                          </div>
+                    <td><div class="form-group">
+                        <textarea class="form-control" rows="3" id="comment" style="width:250px"></textarea>
+                      </div></td>
+                  </tr>
+                  <tr>
+                    <td> <div class="media">
+                        <div class="media-left media-middle">
+                            <img src="./images/14.jpg" class="media-object"
+                            style="width:80px">
+                        </div>
+                        <div class="media-body">
+                            <h4 class="media-heading">tokboki truyền thống</h4>
+                            <h5 class="gia">50.000đ</h5>
+                            <p>bánh gạo,đậu hũ, xúc xích, chả cá, hành tây, sốt cay</p>
+                        </div>
+                    </div></td>
+                    <td> 
+                        <div class="buttons_added">
+                            <input aria-label="quantity" class="input-qty" max="10" min="0" name="" type="number" value="0"
+                                style="width:50px;height: 30px;background-color:cornsilk;color: brown; ">
+            
+                          </div>
+                          <td><div class="form-group">
+                            <textarea class="form-control" rows="3" id="comment" style="width:250px"></textarea>
+                          </div></td>
+                  </tr>
+                  <tr>
+                    <td> <div class="media">
+                        <div class="media-left media-middle">
+                            <img src="./images/15.jpg" class="media-object"
+                            style="width:80px">
+                        </div>
+                        <div class="media-body">
+                            <h4 class="media-heading">Kimbap chiên trứng</h4>
+                            <h5 class="gia">20.000đ</h5>
+                            <p>kimnbap:cơm,rong biển, xúc xích, trứng, thanh cua, cà rốt, dưa chuột</p>
+                        </div>
+                    </div></td>
+                    <td> 
+                        <div class="buttons_added">
+                            <input aria-label="quantity" class="input-qty" max="10" min="0" name="" type="number" value="0"
+                                style="width:50px;height: 30px;background-color:cornsilk;color: brown; ">
+            
+                          </div>
+                    <td> <div class="form-group">
+                        <textarea class="form-control" rows="4" id="comment" style="width:250px"></textarea>
+                      </div></td>
+                  </tr>
+                  <tr>
+                    <td> <div class="media">
+                        <div class="media-left media-middle">
+                            <img src="./images/5.jpg" class="media-object"
+                            style="width:80px">
+                        </div>
+                        <div class="media-body">
+                            <h4 class="media-heading">kim chi</h4>
+                            <h5 class="gia">10.000đ</h5>
+                            <p>cải thảo muối, bột ớt , hành lá. 100g/1 xuất</p>
+                        </div>
+                    </div></td>
+                    <td>
+                        <div class="buttons_added">
+                            <input aria-label="quantity" class="input-qty" max="10" min="0" name="" type="number" value="0"
+                                style="width:50px;height:30px;background-color:cornsilk;color: brown; ">
+            
+                          </div>
+                    <td> <div class="form-group">
+                        <textarea class="form-control" rows="3" id="comment" style="width:250px"></textarea>
+                      </div></td>
+                  </tr>
+                  <tr>
+                    <td> <div class="media">
+                        <div class="media-left media-middle">
+                            <img src="./images/6.jpg" class="media-object"
+                            style="width:80px">
+                        </div>
+                        <div class="media-body">
+                            <h4 class="media-heading">Mì trộn</h4>
+                            <h5 class="gia">55.000đ</h5>
+                            <p>Mì gạo lứt,trứng , dưa chuột, thịt bò, dưa muối</p>
+                        </div>
+                    </div></td>
+                    <td>
+                        <div class="buttons_added">
+                            <input aria-label="quantity" class="input-qty" max="10" min="0" name="" type="number" value="0"
+                                style="width:50px;height: 30px;background-color:cornsilk;color: brown; ">
+            
+                          </div>
+                    <td> <div class="form-group">
+                        <textarea class="form-control" rows="3" id="comment" style="width:250px"></textarea>
+                      </div></td>
+                  </tr>
+                  <tr>
+                    <td> <div class="media">
+                        <div class="media-left media-middle">
+                            <img src="./images/16.jpg" class="media-object"
+                            style="width:80px">
+                        </div>
+                        <div class="media-body">
+                            <h4 class="media-heading">Gà rán sốt cay size M</h4>
+                            <h5 class="gia">70.000đ</h5>
+                            <p>size M có 5-7 miếng gà, sốt cay hàn quốc, tặng kèm củ cải vàng</p>
+                        </div>
+                    </div></td>
+                    <td>
+                        <div class="buttons_added">
+                            <input aria-label="quantity" class="input-qty" max="10" min="0" name="" type="number" value="0"
+                                style="width:50px;height: 30px;background-color:cornsilk;color: brown; ">
+            
+                          </div>
+                    <td> <div class="form-group">
+                        <textarea class="form-control" rows="4" id="comment" style="width:250px"></textarea>
+                      </div></td>
+                    <tr>
+                        <td> <div class="media">
+                            <div class="media-left media-middle">
+                                <img src="./images/15.jpg" class="media-object"
+                                style="width:80px">
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">Kimbap chiên trứng</h4>
+                                <h5 class="gia">20.000đ</h5>
+                                <p>kimnbap:cơm,rong biển, xúc xích, trứng, thanh cua, cà rốt, dưa chuột</p>
+                            </div>
+                        </div></td>
+                        <td> 
+                            <div class="buttons_added">
+                                <input aria-label="quantity" class="input-qty" max="10" min="0" name="" type="number" value="0"
+                                    style="width:50px;height: 30px;background-color:cornsilk;color: brown; ">
+                
+                              </div>
+                        <td><div class="form-group">
+                            <textarea class="form-control" rows="4" id="comment" style="width:250px"></textarea>
+                          </div></td>
+                      </tr>
+                      <tr>
+                        <td> <div class="media">
+                            <div class="media-left media-middle">
+                                <img src="./images/3.jpg" class="media-object"
+                                style="width:80px">
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">Cơm trộn hàn quốc</h4>
+                                <h5 class="gia">80.000đ</h5>
+                                        <p>cơm,rong biển, xúc xích, trứng,kim chi, thịt bò</p>
+                            </div>
+                        </div></td>
+                        <td> 
+                            <div class="buttons_added">
+                                <input aria-label="quantity" class="input-qty" max="10" min="0" name="" type="number" value="0"
+                                    style="width:50px;height: 30px;background-color:cornsilk;color: brown; ">
+                
+                              </div>
+                        <td> <div class="form-group">
+                            <textarea class="form-control"rows="3" id="comment" style="width:250px" rows="5" id="comment"></textarea>
+                          </div></td>
+                      </tr>
+                       <tr>
+                    <td> <div class="media">
+                        <div class="media-left media-middle">
+                            <img src="./images/7.jpg" class="media-object"
+                            style="width:80px">
+                        </div>
+                        <div class="media-body">
+                            <h4 class="media-heading">Thịt bò xào</h4>
+                            <h5 class="gia">80.000đ</h5>
+                            <p>thịt bò xào me chua với nấm kim châm, mộc nhĩ , ớt chuông</p>
+                        </div>
+                    </div></td>
+                    <td> 
+                        <div class="buttons_added">
+                            <input aria-label="quantity" class="input-qty" max="10" min="0" name="" type="number" value="0"
+                                style="width:50px;height: 30px;background-color:cornsilk;color: brown; ">
+            
+                          </div>
+                    <td><div class="form-group">
+                        <textarea class="form-control" rows="3" id="comment" style="width:250px"></textarea>
+                      </div></td>
+                  </tr>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="container">
+          <a href="" class="btn btn-success btn-lg" style="width:120px; height:50px; float: right;">ĐẶT ĐỒ</a>
+          </div>
+   <div class="container " style="margin-top: 10px;background-color:aquamarine;height: 80px;"> 
+    <div class="row"></div>  
+    <div class="col-md-7 col-sm-7 col-xs-7">
+                <ul class="breadcrumb" style="background-color: aquamarine">
+                    <li><a href="#"><h2>*Giới thiệu</h2></a></li>
+                    <li><a href="#">Hệ thông cửa hàng</a></li>
+                    <li><a href="#">Khuyến mại</a></li>
+                    <li><a href="#">Tuyển dụng</a></li>
+                    <li><a href="#">liên hệ</a></li>
+                  </ul>
+                  </div>
+            
+            <div class="col-md-5 col-sm-5 col-xs-5">
+                <div class="id">
+                <img src="./images/face.png" style="width: 40px; height: 40px">
+                <img src="./images/tw.jpg" style="width: 40px; height: 40px">
+                <img src="./images/za.webp" style="width: 40px; height: 40px">
+                <img src="./images/you.png" style="width: 40px; height: 40px">
+                <img src="./images/gg.png" style="width: 40px; height: 40px">
+                <img src="./images/ggm.png" style="width: 40px; height: 40px">
+            </div></div>
+        </div>
+       </div>
+    </body>
+</html>
